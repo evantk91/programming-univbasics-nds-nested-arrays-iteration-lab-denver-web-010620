@@ -58,7 +58,7 @@ def total_even_pairs(src)
     num2 = src[row_index][1]
     
     if num1 % 2 == 0 && num2 % 2 == 0 
-      total = num1 + num2
+      total += num1 + num2
     end
     
     row_index += 1
