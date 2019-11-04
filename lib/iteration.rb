@@ -56,9 +56,12 @@ def total_even_pairs(src)
   while row_index < src.count do
     num1 = src[row_index][0]
     num2 = src[row_index][1]
+    
     if num1 % 2 == 0 && num2 % 2 == 0 
       array << num1 + num2
     end
+    
+    row_index += 1
   end
   
   array
